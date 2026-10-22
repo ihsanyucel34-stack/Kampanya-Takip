@@ -1,0 +1,36 @@
+{
+  "name": "kampanya-takip",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "dependencies": {
+    "@expo/metro-runtime": "~57.0.17",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "expo": "~57.0.31",
+    "expo-constants": "~57.0.22",
+    "expo-linking": "~57.0.13",
+    "expo-router": "~57.0.29",
+    "expo-status-bar": "~57.0.1",
+    "lucide-react-native": "^1.61.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "~4.26.0",
+    "react-native-svg": "15.15.4",
+    "react-native-web": "~0.21.0",
+    "zustand": "^5.0.16"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start --port 8090",
+    "android": "expo start --android --port 8090",
+    "ios": "expo start --ios --port 8090",
+    "web": "expo start --web --port 8090",
+    "typecheck": "tsc --noEmit",
+    "test": "node scripts/engine-check.mjs"
+  },
+  "private": true
+}
