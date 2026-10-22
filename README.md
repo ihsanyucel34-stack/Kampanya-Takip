@@ -9,13 +9,15 @@ iOS, Android (Expo Go) ve web tarayıcısında çalışır.
 
 ```bash
 npm install
-npm start          # QR kodu Expo Go ile okutun (iOS / Android)
-npm run web        # tarayıcıda açar
+npm start          # QR kodu Expo Go ile okutun (iOS / Android) — port 8090
+npm run web        # tarayıcıda açar (http://localhost:8090)
 npm run typecheck  # TypeScript kontrolü
 npm test           # Karar Motoru ve metin ayrıştırıcı testleri
 ```
 
-> Expo SDK 58 kullanılır; telefonunuzdaki Expo Go uygulamasının güncel olduğundan emin olun.
+> Expo SDK 57 kullanılır (App Store'daki Expo Go ile uyumlu).
+> Sunucu 8081 yerine **8090** portunda çalışır; bazı kurumsal bilgisayarlarda McAfee Agent 8081'i kullanır.
+> Telefon bağlanamıyorsa telefon ve bilgisayarın aynı ağda olduğundan ve güvenlik duvarının 8090 portuna izin verdiğinden emin olun.
 
 ## Ekranlar (alt menü)
 
