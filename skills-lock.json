@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "turkish-anti-ai-skill": {
+      "source": "yucezerey/turkish-anti-ai-skill",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "eb10fb7966c1c3458f245f05ccb49ad8b726a4cb295f082a35a8dccfb262b737"
+    }
+  }
+}
